@@ -7,16 +7,16 @@
 <img src="https://telegra.ph/file/38c351f44981a0f0c3c1c.jpg">
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+  <a href="https://github.com/iamyogzx/YOGZX-UBOT/fork">
+    <img src="https://img.shields.io/github/forks/ramadhani892/YOGZX-UBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+  <a href="https://github.com/iamyogzx/YOGZX-UBOT">
+    <img src="https://img.shields.io/github/stars/iamyogzx/YOGZX-UBOT?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+![VIEWS](https://komarev.com/ghpvc/?username=iamyogzx)
 
 <a href="https://t.me/ramsupportt"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
