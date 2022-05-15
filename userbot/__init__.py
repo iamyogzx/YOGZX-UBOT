@@ -318,7 +318,7 @@ OWNER_BOT = os.environ.get(
     "OWNER_BOT") or "t.me/teervigroup"
 
 # CH sfs bot
-CH_SFS = os.environ.get("CH_SFS") or "t.me/userbotCh"
+CH_SFS = os.environ.get("CH_SFS") or "t.me/YogzxForber"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -692,12 +692,12 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository YOGZX - UBOT",
-                    url="https://t.me/ramsupportt",
+                    url="https://t.me/GroupTidakDiketahui",
                     thumb=InputWebDocument(HELP_LOGO, 0, "image/jpeg", []),
-                    text="**🌟 YOGZX - UBOT 🌟**\n➖➖➖➖➖➖➖➖➖➖\n❍▸ **Owner Repo :** [iamyogzx](https://t.me/teamsecret_yog)\n**Support :** @YogzxForber\n❍▸ **Repository :** [⚡ YOGZX - UBOT ⚡](https://github.com/iamyogzx/YOGZX-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**⚡ YOGZX - UBOT ⚡**\n➖➖➖➖➖➖➖➖➖➖\n❍▸ **Owner Repo :** [iamyogzx](https://t.me/teamsecret_yog)\n**Support :** @YogzxForber\n❍▸ **Repository :** [⚡ YOGZX - UBOT ⚡](https://github.com/iamyogzx/YOGZX-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/ramsupportt"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/GroupTidakDiketahui"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ", "https://github.com/iamyogzx/YOGZX-UBOT"
                             ),
@@ -746,7 +746,7 @@ with bot:
                     text=f"**✨ YOGZX - UBOT ✨**\n➖➖➖➖➖➖➖➖➖➖\n**UserMode:** [{user.first_name}](tg://user?id={user.id})\n**Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @UserbotCh\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/ramsupportt"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/GroupTidakDiketahui"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏꜱɪᴛᴏʀʏ", "https://github.com/iamyogzx/YOGZX-UBOT"
                              ),
@@ -763,7 +763,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**⭐ YOGZX - UBOT ⭐ Inline Menu**\n\n🔸 **Owner** [{user.first_name}](tg://user?id={user.id})\n•  **Jumlah** `{len(dugmeler)}` Module"
+                text = f"**⚡ YOGZX - UBOT ⚡ Inline Menu**\n\n🔸 **Owner** [{user.first_name}](tg://user?id={user.id})\n•  **Jumlah** `{len(dugmeler)}` Module"
                 await event.edit(
                     text,
                     file=ramlogo,
