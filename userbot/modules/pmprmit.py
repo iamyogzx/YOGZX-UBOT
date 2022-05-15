@@ -18,14 +18,14 @@ from userbot.events import ram_cmd
 from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
-    f"╭━━━━━━━━━━━━━━━━━╮\n    🌟SELAMAT DATANG🌟\n"
+    f"╭━━━━━━━━━━━━━━━━━╮\n    🐧SELAMAT DATANG🐧\n"
     "╰━━━━━━━━━━━━━━━━━╯\n"
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
     f"ANAK KONTOL ANAK NGENTOT,KALO NGECHAT MAJIKAN GUA ITU SALAM,\nHABIS ITU SABAR TUNGGU MAJIKAN GUA BALES,\nKALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, KAYA ANAK YATIM MAU MINTA SEMBAKO LU ANJING, APA LAGI LU NGECHAT NYA CUMA MINTA VCS, BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!!! TUNGGU MAJIKAN GUA NERIMA PESAN LU\n"
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[• 𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄\n"
-    "┣[• 𝐁𝐘 ⭐️𝐑𝐀𝐌-𝐔𝐁𝐎𝐓⭐️\n"
+    "┣[• 𝐁𝐘 ⚡𝐘𝐎𝐆𝐙𝐗-𝐔𝐁𝐎𝐓⚡\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯"
 )
 
