@@ -88,7 +88,7 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     await ping.client.send_message(
-        ping.chat_id, f"**╰•★★ |rค๓ ρꪮꪀᧁ| ★★•╯**\n"
+        ping.chat_id, f"**╰•★★ |𝐘𝐎𝐆𝐙𝐗 𝐏𝐋𝐎𝐍𝐆| ★★•╯**\n"
                     f"★ **speed:** "
                     f"`%sms` \n"
                     f"★ **Uptime:** "
@@ -129,7 +129,7 @@ async def _(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await pong.client.send_message(
-        pong.chat_id, f"**🌟𝗥𝗔𝗠-𝗨𝗕𝗢𝗧🌟**\n"
+        pong.chat_id, f"**⚡𝗬𝗢𝗚𝗭𝗫-𝗨𝗕𝗢𝗧⚡**\n"
                      f"** ➠  Sɪɢɴᴀʟ   :** "
                      f"`%sms` \n"
                      f"** ➠  Bᴏᴛᴠᴇʀ  :** "
