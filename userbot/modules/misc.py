@@ -62,9 +62,9 @@ async def shutdown_bot(event):
         await event.client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**RAM-UBOT** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**YOGZX-UBOT** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(event, "**RAM-UBOT Berhasil di matikan!**")
+    await edit_or_reply(event, "**YOGZX-UBOT Berhasil di matikan!**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -90,9 +90,9 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n⭐ [Userbot Repo](https://github.com/ramadhani892/RAM-UBOT/blob/RAM-UBOT/README.md)"
-        "\n⭐ [Video Tutorial](https://t.me/Geezprojectt/50)"
-        "\n⭐ [List Variabel Heroku untuk RAM-UBOT](https://t.me/UserbotCh/11)",
+        "\n⚡ [Userbot Repo](https://github.com/iamyogzx/YOGZX-UBOT/blob/YOGZX-UBOT/README.md)"
+        "\n⚡ [Video Tutorial](https://t.me/Geezprojectt/50)"
+        "\n⚡ [List Variabel Heroku untuk YOGZX-UBOT](https://t.me/UserbotCh/11)",
     )
 
 
@@ -112,17 +112,17 @@ async def repeat(event):
 
 @ram_cmd(pattern="repo$")
 async def repo_is_here(event):
-    await edit_or_reply(event, "`Sabar Tod....`")
+    await edit_or_reply(event, "`Sabar Tod Lgi Proses Ini....`")
     await event.client.send_message(
         event.chat_id, f"╭✠╼━━━━━━━━━━━━━━━\n"
-        f"│  __Welcome Orphan To The hell__\n"
+        f"│  __Welcome Guys To The Isekai__\n"
         f"├✠╼━━━━━━━━━━━━━━━\n"
         f"│`★ Bot Ver    :` `{BOT_VER}@{branch}`\n"
-        f"│`★ Support    :` [Ram Support](t.me/RamSupportt)\n"
-        f"│`★ Channel    :` [Ch Support](t.me/UserbotCh)\n"
-        f"│`★ Owner Repo :` [merdhani](t.me/merdhni)\n"
+        f"│`★ Support    :` [Yogzx Support](t.me/GroupTidakDiketahui)\n"
+        f"│`★ Channel    :` [Ch Support](t.me/YogzxForber)\n"
+        f"│`★ Owner Repo :` [iamyogzx](t.me/teamsecret_yog)\n"
         f"├✠╼━━━━━━━━━━━━━━━━\n"
-        f"│`★ Repository :` [𝙍𝘼𝙈 - 𝙐𝘽𝙊𝙏](https://github.com/ramadhani892/RAM-UBOT)\n"
+        f"│`★ Repository :` [𝙔𝙊𝙂𝙕𝙓 - 𝙐𝘽𝙊𝙏](https://github.com/iamyogzx/YOGZX-UBOT)\n"
         f"╰✠╼━━━━━━━━━━━━━━━━\n"
         f"  𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/ramadhani892/RAM-UBOT/blob/master/LICENSE)", link_preview=False, reply_to=event.reply_to_msg_id
     )
@@ -137,7 +137,7 @@ async def string_is_here(event):
 
 @ram_cmd(pattern="deploy$")
 async def deploy_(event):
-    await event.client.send_message(event.chat_id, "Deploy ✨RAM-UBOT✨ Disini: [TEKAN...](https://telegram.dog/XTZ_HerokuBot?start=cmFtYWRoYW5pODkyL1JBTS1VQk9UIG1hc3Rlcg)", link_preview=False, reply_to=event.reply_to_msg_id)
+    await event.client.send_message(event.chat_id, "Deploy ✨YOGZX-UBOT✨ Disini: [TEKAN...](https://telegram.dog/XTZ_HerokuBot?start=cmFtYWRoYW5pODkyL1JBTS1VQk9UIG1hc3Rlcg)", link_preview=False, reply_to=event.reply_to_msg_id)
     await event.delete()
 
 @ram_cmd(pattern="raw$")
@@ -312,11 +312,11 @@ CMD_HELP.update(
     {
         "repo": f"**Plugin : **`Repository`\
         \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Menampilan link Repository RAM-UBOT\
+        \n  •  **Function : **Menampilan link Repository YOGZX-UBOT\
         \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Menampilan link String RAM-UBOT\
+        \n  •  **Function : **Menampilan link String YOGZX-UBOT\
         \n\n  •  **Syntax :** `{cmd}deploy`\
-        \n  •  **Function : **Untuk menampilkan Link Deploy RAM-UBOT\
+        \n  •  **Function : **Untuk menampilkan Link Deploy YOGZX-UBOT\
     "
     }
 )
@@ -334,7 +334,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "restart": f"**Plugin : **`Restart RAM-UBOT`\
+        "restart": f"**Plugin : **`Restart YOGZX-UBOT`\
         \n\n  •  **Syntax :** `{cmd}restart`\
         \n  •  **Function : **Untuk Merestart userbot.\
     "
