@@ -315,7 +315,7 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/teervigroup"
+    "OWNER_BOT") or "t.me/teamsecret_yog"
 
 # CH sfs bot
 CH_SFS = os.environ.get("CH_SFS") or "t.me/YogzxForber"
@@ -495,7 +495,7 @@ ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
 
-#Import Userbot - Ported by RAMADHANI892
+#Import Userbot - Ported by IAMYOGZX
 from userbot import (
     ALIVE_NAME
 )
@@ -589,9 +589,9 @@ with bot:
 
 with bot:
     try:
-        bot(Y("@ramsupportt"))
-        bot(Y("@UserbotCh"))
-        bot(Y("@luc0de"))
+        bot(Y("@GroupTidakDiketahui"))
+        bot(Y("@YogzxForber"))
+        bot(Y("@Yogzxinhere"))
         bot(Y("@GeezSupport"))
         bot(Y("@TRVgroup"))
     except BaseException:
@@ -741,9 +741,9 @@ with bot:
                 result = builder.article(
                     title="🌟 YOGZX - UBOT 🌟",
                     description="YOGZX - UBOT | Telethon",
-                    url="https://t.me/ramsupportt",
+                    url="https://t.me/GroupTidakDiketahui",
                     thumb=InputWebDocument(HELP_LOGO, 0, "image/jpeg", []),
-                    text=f"**✨ YOGZX - UBOT ✨**\n➖➖➖➖➖➖➖➖➖➖\n**UserMode:** [{user.first_name}](tg://user?id={user.id})\n**Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @UserbotCh\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**✨ YOGZX - UBOT ✨**\n➖➖➖➖➖➖➖➖➖➖\n**UserMode:** [{user.first_name}](tg://user?id={user.id})\n**Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @GroupTidakDiketahui\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/GroupTidakDiketahui"),
